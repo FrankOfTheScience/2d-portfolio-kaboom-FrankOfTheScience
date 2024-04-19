@@ -7,9 +7,9 @@ export const dialogueData = {
   I learned a bit of python and C# at University, but then I discovered Java and C# and focused on these.
   Right now I am a backend and cloud developer, specialized in .NET and Azure Cloud, but I also know a bit of frontend development.
  `,
-  degree: `This is my degree, I studied Economics, my degree course was about Banking Finance and Financial Markets. Even though I work in a different industry,
+  "cs-degree": `This is my degree, I studied Economics, my degree course was about Banking Finance and Financial Markets. Even though I work in a different industry,
   I learned a lot of skills and knowledge that made me what I am now and will be useful in lateral aspects of my work`,
-  sofatable: `That's my sofa. I like to relax here and play videogames. My favourite ones are Cyberpunk 2077 and Skyrim, but I also love classic games such as The Sims, Stronghold or Doom!`,
+  "sofa-table": `That's my sofa. I like to relax here and play videogames. My favourite ones are Cyberpunk 2077 and Skyrim, but I also love classic games such as The Sims, Stronghold or Doom!`,
   tv: `That's my entertainment content!
   I love listening and playing Classic Rock and Heavy Metal, that's one of my favourite <a href="https://www.youtube.com/watch?v=M0TcB5lxfuY" target="_blank">song</a>!
   Other honorable mentions about my passions are backpacking around the world, surfing, astronomy and rockets!
