@@ -19,7 +19,7 @@ export const dialogueData = {
   but let's keep in touch! You can find my contacts in my resumee,
   it is on the table if you haven't seen it yet!`,
   resume: `Oh, who would have thought!
-  This paper on the desk is actually <a href="https://github.com/FrankOfTheScience/Resumee/blob/master/CV%20-%20Francesco%20Dell'Ascenza.pdf" target="_blank">my resumee!</a>
+  This paper on the desk is actually <a href="https://frankofthescience.github.io/Resumee/CV%20-%20Francesco%20Dell'Ascenza.pdf" target="_blank">my resumee!</a>
   You can contact me at the email or phone number that you can find in it, if you have any interesting job opportunities!`,
   projects: `Those are... projects.. I guess... Well they are quite in a mess! Here is my <a href="https://github.com/FrankOfTheScience" target="_blank">Github</a>, there you can find them tidied up!`,
   library: `A library, other than a bunch of NuGet packages here you can find some books that changed my life!
