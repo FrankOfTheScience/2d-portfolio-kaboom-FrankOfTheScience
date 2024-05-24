@@ -52,4 +52,21 @@ jobs:
           name: production-files
           path: ./dist
 
-      - name: Depl
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+
+      - name: Display deploy URL
+        run: |
+          echo "Deployed to: https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}"
+          
+      - name: Upload deploy URL as artifact
+        run: |
+          echo "Deployed to: https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}" > deploy-url.txt
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: deploy-url
+          path: deploy-url.txt
