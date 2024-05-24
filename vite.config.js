@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/gamePortfolio/",
+  base: "/2d-portfolio-kaboom-FrankOfTheScience/",
   build: {
     minify: "terser",
   },
