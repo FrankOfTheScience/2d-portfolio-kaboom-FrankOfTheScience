@@ -3,7 +3,7 @@
 This 2D portfolio works on both desktop
 and mobile.
 
-Live Demo : TBD
+Live Demo : https://frankofthescience.github.io/2d-portfolio-kaboom-FrankOfTheScience/
 
 I forked the <a href="https://github.com/JSLegendDev">JSLegendDev</a> repo and slightly modified it.
 Just giving credits!
